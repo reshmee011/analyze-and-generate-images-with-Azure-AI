@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function generateImage(prompt) {
     const apiBase = 'https://resazureopenai.openai.azure.com';
-    const apiKey = '5f71de840665411e981dc60b40ac5f82';
+    const apiKey = 'xxxx';
     const apiVersion = '2023-06-01-preview';
     const url = `${apiBase}/openai/images/generations:submit?api-version=${apiVersion}`;
     const headers = { "api-key": apiKey, "Content-Type": "application/json" };
