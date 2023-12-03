@@ -1,7 +1,7 @@
 import axios from "axios";
 export async function analyzeImage(imageUrl) {
     try{
-    const subscriptionKey = '8f3c44aef380411fab2aa648ec654f65';
+    const subscriptionKey = 'xxxxxx';
     const endpoint = 'https://computervisionres.cognitiveservices.azure.com/';
 
     
